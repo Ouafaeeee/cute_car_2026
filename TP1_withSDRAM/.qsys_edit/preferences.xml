@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="436" />
+   <clocksource preferredWidth="435" />
+   <frequency preferredWidth="416" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Clock and Reset,Library/University Program,Project,Library,Library/Verification,Library/Verification/Simulation" />
+ <window width="1612" height="908" x="3066" y="176" />
+ <generation synthesis="VHDL" />
+ <hdlexample language="VHDL" />
+</preferences>
