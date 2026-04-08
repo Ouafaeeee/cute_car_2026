@@ -1,0 +1,20 @@
+
+State Machine - |testcapteurs|capteurs_sol:u_adc|State
+Name State.S7 State.S6 State.S5 State.S4 State.S3 State.S2 State.S1 State.S0 
+State.S0 0 0 0 0 0 0 0 0 
+State.S1 0 0 0 0 0 0 1 1 
+State.S2 0 0 0 0 0 1 0 1 
+State.S3 0 0 0 0 1 0 0 1 
+State.S4 0 0 0 1 0 0 0 1 
+State.S5 0 0 1 0 0 0 0 1 
+State.S6 0 1 0 0 0 0 0 1 
+State.S7 1 0 0 0 0 0 0 1 
+
+State Machine - |testcapteurs|nios:u0|nios_nios2_qsys_0:nios2_qsys_0|nios_nios2_qsys_0_nios2_oci:the_nios_nios2_qsys_0_nios2_oci|nios_nios2_qsys_0_jtag_debug_module_wrapper:the_nios_nios2_qsys_0_jtag_debug_module_wrapper|nios_nios2_qsys_0_jtag_debug_module_tck:the_nios_nios2_qsys_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
